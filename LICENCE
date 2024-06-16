@@ -1,0 +1,12 @@
+
+### Explanation:
+- **Setup Instructions:** This section guides users through cloning the repository, setting up environment variables, deploying to Heroku using a deploy button, and running the bot locally with Docker.
+- **Deployment Button:** The `[![Deploy...](...)](https://heroku.com/deploy?template=...)` Markdown syntax creates a deploy button that links directly to your Heroku app deployment page. Users can click this button to initiate the deployment process.
+
+Make sure to replace `yourusername/your-repo` with your actual GitHub repository path.
+
+### Deployment Button Behavior:
+- Clicking the deploy button will take the user to the Heroku dashboard where they can specify their app name and optionally change the region.
+- After clicking `Deploy app`, Heroku will automatically clone your GitHub repository, set up the environment variables (based on your `.env` file), and deploy the bot using the specified Dockerfile (`heroku.yml` in your case).
+
+This `README.md` provides clear instructions for setting up and deploying your Telegram bot for URL shortening, making it easy for developers to get started with your project.
